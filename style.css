@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c90f0f00;
+    text-decoration: none;
+}
+
+
+.header{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+
+    width: 130%;
+    height: 350%;
+    height: 15vh;
+
+}
+.Logo{
+    width: 10%;
+    height: 30%;
+    display: flex;
+    justify-content: left;
+    
+}
+.box{
+    
+    background: #f2ecec6d;
+    height: 9px;
+    padding: 20px;
+    width: 30pc;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+::-webkit-input-placeholder{
+    font-size: 17px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #efd7e3;
+}
+
+}
+.pesquisa{
+
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding: 0;
+    transition: 0.7s;
+}
+
+.box:hover > .pesquisa{
+    width: 320px;
+    padding-left: 20px;
+}
+.box:hover > .lupa{
+    background: #db3d8c;
+}
+.lupa{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+
+.action{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2vw;
+    width: 15vw;
+}
+
+.Cadastro{
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    color:gray;
+    font-size: 13px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+display: flex;
+justify-content:space-between;
+align-items: center;
+
+
+height: 2px;
+padding: 8%;
+
+text-align: block;
+
+background: #db3d8c;
+color: aliceblue;
+
+outline: 0;
+border: 0;
+border-radius: 8px;
+cursor: pointer;
+
+font-size: 17px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.action:hover > .Cadastro{
+    color: #db3d8c;
+}
+
+.action:hover > button{
+    color:bisque
+}
+
+.carrinho{
+     display: flex;
+     width: 30%;
+     height: 30%;
+
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    justify-items: flex-start;
+
+    cursor: pointer;
+    font-size: 17px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #090909b9;
+}
+.text{
+    border: 0%;
+    width:40vw;
+}
+.bloco{
+    background: #aaa9aa15;
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0;
+   
+
+} 
+h5{
+    color: rgb(227, 164, 17);
+    font-size: 16px;
+  
+}
+h1{
+    font-size: 75px;
+    padding: 0%;
+
+}
+.img{
+  position: relative;
+    justify-content:center;
+  width: 60%;
+  height: 10%;
+}
+
+.look{
+    display: flex;
+justify-content: space-around;
+align-items:center;
+
+height: 3%;
+padding: 3%;
+width: 25%;
+
+text-align: block;
+
+background: #db3d8c;
+color: aliceblue;
+
+outline: 0;
+border: 0;
+border-radius: 8px;
+cursor: pointer;
+}
+.oferta:hover > .look{
+    color: bisque;
+}
+  .coleçao1{
+    background: #aaa9aa15;
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0;
+  }
+.supreme{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    justify-items: flex-start;  
+    align-items: flex-end;
+    position: relative;
+}
+  
+.blusa{
+    background: #dbe043c6;
+    border-radius: 90px;
+    width: 60px;
+
+::webkit-input-placeholder{
+    color: white;
+}    
+}
+
+.preta{
+    position: absolute;
+
+}
+.orange{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fone{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.c3{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    
+    height: 3%;
+    padding: 3%;
+    width: 25%;
+    
+    text-align: block;
+    
+    background: #fff;
+    color: #db3d8c;
+    
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
